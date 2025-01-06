@@ -1,0 +1,4 @@
+#!/bin/sh
+
+set -e
+mvnd clean spring-boot:run -Dquickly

@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class NorthwindSpringbootApplication {
 
 	public static void main(String[] args) {
-	  System.setProperty("server.servlet.context-path", "/northwind");
+	  System.setProperty("server.servlet.context-path", "/");
 	  SpringApplication.run(NorthwindSpringbootApplication.class, args);
 	}
 

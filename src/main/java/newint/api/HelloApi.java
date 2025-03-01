@@ -8,8 +8,7 @@ import newint.data.HelloRepo;
 
 @RestController
 public class HelloApi {
-  @Autowired
-  HelloRepo repo;
+  @Autowired HelloRepo repo;
 
   @GetMapping("/hello")
   public String get() {

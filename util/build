@@ -1,1 +1,1 @@
-mvnd clean spring-boot:repackage -Dquickly
+mvnd clean package -Dquickly

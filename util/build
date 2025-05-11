@@ -2,7 +2,3 @@
 
 set -e
 mvnd clean package -Dquickly
-ls
-ls
-ls
-ls
